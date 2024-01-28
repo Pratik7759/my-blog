@@ -1,5 +1,6 @@
 const userCardData = [
   {
+    userId: 1,
     heading: "Latest Trends in 2024",
     name: "Alice Johnson",
     topic: "Fashion",
@@ -8,6 +9,7 @@ const userCardData = [
     imageSrc: "fire.jpg",
   },
   {
+    userId: 2,
     heading: "Discovering New Flavors",
     name: "Bob Smith",
     topic: "Food",
@@ -16,6 +18,7 @@ const userCardData = [
     imageSrc: "food.jpg",
   },
   {
+    userId: 3,
     heading: "Epic Adventures Await",
     name: "Charlie Brown",
     topic: "Adventure",
@@ -24,6 +27,7 @@ const userCardData = [
     imageSrc: "smily.jpg",
   },
   {
+    userId: 4,
     heading: "Delicious Culinary Delights",
     name: "Diana Williams",
     topic: "Food",
@@ -32,6 +36,7 @@ const userCardData = [
     imageSrc: "girl.jpg",
   },
   {
+    userId: 5,
     heading: "Discovering New Flavors",
     name: "Eva Rodriguez",
     topic: "Technology",
@@ -40,6 +45,16 @@ const userCardData = [
     imageSrc: "hotWomen.jpg",
   },
   {
+    userId: 6,
+    heading: "Outdoor Escapades",
+    name: "Frank Miller",
+    topic: "Adventure",
+    content:
+      "Join Frank Miller on a thrilling journey of outdoor escapades. Experience the thrill of conquering untamed landscapes, conquering new peaks, and embracing the beauty of nature. Get ready for an adventure that promises excitement at every turn.",
+    imageSrc: "bikni.jpg",
+  },
+  {
+    userId: 7,
     heading: "Outdoor Escapades",
     name: "Frank Miller",
     topic: "Adventure",
