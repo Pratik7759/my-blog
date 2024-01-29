@@ -7,7 +7,7 @@ const AuthorDetails = ({ name, content, imageSrc }) => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-[#8DD5E4] via-[#86A8E7] to-[#818CDB] min-h-screen px-6 py-4">
+    <div className="bg-gradient-to-r from-[#8DD5E4] via-[#86A8E7] to-[#818CDB] min-h-screen px-6 py-20">
       <div className="max-w-[900px] mx-auto">
         <button
           className="text-sm font-semibold max-w-[900px]  flex gap-2 cursor-pointer items-center"

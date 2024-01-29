@@ -6,7 +6,7 @@ import userCardData from "@/components/userCard/userCardData";
 
 const AuthorDetailMain = () => {
   return (
-    <Fragment>
+    <>
       {userCardData.map((user) => (
         <AuthorDetails
           key={user.userId}
@@ -15,7 +15,7 @@ const AuthorDetailMain = () => {
           name={user.name}
         />
       ))}
-    </Fragment>
+    </>
   );
 };
 
