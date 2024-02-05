@@ -7,7 +7,7 @@ const UserCardMain = () => {
   return (
     <Fragment>
       <Heading />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6 md:p-0 md:mt-12 mt-20 max-w-[1200px] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6 md:mt-12 mt-20 max-w-[1200px] mx-auto">
         {userCardData.map((user) => (
           <UserCard
             key={user.userId}

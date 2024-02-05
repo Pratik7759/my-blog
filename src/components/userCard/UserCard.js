@@ -15,7 +15,7 @@ const UserCard = ({ heading, content, name, topic, imageSrc, userId }) => {
       : "";
 
   return (
-    <div className="bg-white container rounded-xl hover:shadow-none shadow-fuchsia-950 shadow-2xl cursor-pointer">
+    <div className="bg-white rounded-xl hover:shadow-none shadow-fuchsia-950 shadow-2xl cursor-pointer">
       <Image
         src={`/images/${imageSrc}`}
         alt={`/images/${imageSrc}`}
@@ -27,7 +27,7 @@ const UserCard = ({ heading, content, name, topic, imageSrc, userId }) => {
       <div className="p-4 flex flex-col justify-between min-h-[270px]">
         <div>
           <p
-            className={` px-3 py-[2px] text-white  rounded-full text-sm max-w-max ${backgroundColor}`}
+            className={`px-3 py-[2px] text-white rounded-full text-sm max-w-max ${backgroundColor}`}
           >
             {topic}
           </p>
